@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const userName = ref('sadsad')
+</script>
+
 <template>
   <LayoutDefault>
     <template #header>
@@ -13,5 +17,3 @@
     <slot></slot>
   </LayoutDefault>
 </template>
-<script setup lang="ts">
-</script>

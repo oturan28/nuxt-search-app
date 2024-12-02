@@ -3,8 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   extends: [
-    'github:oturan28/nuxt-shell-app',
+    'github:oturan28/nuxt-shell-app', { install: true },
   ],
-
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-auth-utils'],
 })
