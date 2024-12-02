@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data } = await useFetch('/api/todos')
-const { loggedIn, user, clear } = useUserSession()
+const { user } = useUserSession()
 
 </script>
 <template>
